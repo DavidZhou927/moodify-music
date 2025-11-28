@@ -1,0 +1,79 @@
+{
+  "files": [
+    {
+      "path": "index.tsx",
+      "lines": 13,
+      "ext": ".tsx"
+    },
+    {
+      "path": "App.tsx",
+      "lines": 368,
+      "ext": ".tsx"
+    },
+    {
+      "path": "types.ts",
+      "lines": 37,
+      "ext": ".ts"
+    },
+    {
+      "path": "vite.config.ts",
+      "lines": 22,
+      "ext": ".ts"
+    },
+    {
+      "path": "components/AudioPlayer.tsx",
+      "lines": 91,
+      "ext": ".tsx"
+    },
+    {
+      "path": "components/MoodInput.tsx",
+      "lines": 81,
+      "ext": ".tsx"
+    },
+    {
+      "path": "components/MusicCard.tsx",
+      "lines": 81,
+      "ext": ".tsx"
+    },
+    {
+      "path": "components/WeeklyProgress.tsx",
+      "lines": 55,
+      "ext": ".tsx"
+    },
+    {
+      "path": "scripts/generated_stats.py",
+      "lines": 167,
+      "ext": ".py"
+    },
+    {
+      "path": "scripts/generate_language_report.py",
+      "lines": 48,
+      "ext": ".py"
+    },
+    {
+      "path": "services/geminiService.ts",
+      "lines": 59,
+      "ext": ".ts"
+    },
+    {
+      "path": "services/stabilityService.ts",
+      "lines": 37,
+      "ext": ".ts"
+    }
+  ],
+  "by_extension": {
+    ".tsx": {
+      "lines": 689,
+      "percent": 65
+    },
+    ".ts": {
+      "lines": 155,
+      "percent": 15
+    },
+    ".py": {
+      "lines": 215,
+      "percent": 20
+    }
+  },
+  "total_lines": 1059
+}

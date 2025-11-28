@@ -1,0 +1,34 @@
+{
+  "total": 180,
+  "mood_counts": {
+    "calm": 22,
+    "anxious": 22,
+    "sad": 25,
+    "dreamy": 29,
+    "focused": 17,
+    "melancholic": 23,
+    "energetic": 20,
+    "happy": 22
+  },
+  "color_counts": {
+    "#8B5CF6": 19,
+    "#3B82F6": 33,
+    "#EF4444": 21,
+    "#10B981": 29,
+    "#14B8A6": 23,
+    "#F59E0B": 19,
+    "#64748B": 18,
+    "#1E293B": 18
+  },
+  "avg_intensity": 0.501,
+  "distribution": {
+    "calm": 0.122,
+    "anxious": 0.122,
+    "sad": 0.139,
+    "dreamy": 0.161,
+    "focused": 0.094,
+    "melancholic": 0.128,
+    "energetic": 0.111,
+    "happy": 0.122
+  }
+}

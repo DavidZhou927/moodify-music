@@ -1,0 +1,9 @@
+{
+  "name": "MoodMelody - Weekly AI Music Journal",
+  "description": "A musical diary that transforms your daily mood into sound using AI. Create 30s daily clips and generate a 90s weekly mix.",
+  "requestFramePermissions": [],
+  "languages": {
+  "python": 20,
+  "typescript": 80
+  }
+}
