@@ -1,0 +1,13 @@
+/* Minimal site styles (keeps previous layout coloring used by App) */
+html,body,#root{
+  height:100%;
+}
+body{
+  margin:0;
+  font-family: 'Space Grotesk', sans-serif;
+  background-color:#0f172a;
+  color:#e2e8f0;
+}
+
+/* small helper so CDN Tailwind still augments styles */
+.hidden{display:none}
