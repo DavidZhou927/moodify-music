@@ -46,5 +46,13 @@ import { chromium } from 'playwright';
     console.log('failed to get page content:', e.message);
   }
 
+  try{
+    const rootHtml = await page.$eval('#root', el => el.innerHTML);
+    console.log('---#root.innerHTML---');
+    console.log(rootHtml.slice(0, 2000));
+  }catch(e){
+    console.log('failed to read #root:', e.message);
+  }
+
   await browser.close();
 })();
