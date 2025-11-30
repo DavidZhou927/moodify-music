@@ -49,31 +49,3 @@ Open your browser at http://localhost:5173 (Vite will show a different port if 5
 npm run build
 npm run preview  # optional local preview of production build
 ```
-
-Environment variables (optional)
---------------------------------
-Only required if you want to enable cloud AI services (Gemini, Stability, etc.). Create a `.env` file in project root and add any required keys. Do not commit secrets.
-
-Example `.env`
-
-```text
-# Gemini (optional)
-GEMINI_API_KEY=your_gemini_api_key_here
-
-# Stability API (optional)
-STABILITY_API_KEY=your_stability_api_key_here
-```
-
-Project layout (short)
-- `components/` — React components (`MoodInput`, `MusicCard`, `AudioPlayer`, ...)
-- `services/` — Service wrappers for AI APIs (`geminiService.ts`, `stabilityService.ts`)
-- `scripts/` — helper scripts used for debugging or generation
-
-Security notes
-- Never commit API keys to the repository. Use environment variables or a backend proxy.
-- The project contains server-side protection around `@google/genai` so the SDK is not initialized in the browser bundle.
-
-Repository
-- https://github.com/DavidZhou927/moodify-music
-
-If you want the README to include Vercel deployment steps, environment variable examples for production, or a short GIF demo, tell me and I will add it.
